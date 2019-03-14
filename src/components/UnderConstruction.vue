@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <img src="../assets/dozer.png" id="dozer">
     <h1>This site is under construction</h1>
   </div>
 </template>
@@ -21,7 +22,14 @@ export default {
 
 h1::after {
   content: "...";
-  color: yellow;
+  margin-left: 5px;
+  color: #ffe169;
+}
+
+#dozer {
+  width: 150px;
+  padding-bottom: 75px;
+  margin-right: 40px;
 }
 </style>
 
