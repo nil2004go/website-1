@@ -1,0 +1,5 @@
+# Global build settings
+
+[build]
+  command = "npm run build"
+  publish = "public"
