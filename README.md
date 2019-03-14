@@ -1,4 +1,6 @@
-# mikkel.website
+# Personal website
+
+Accessible at [mikkel.website](https://mikkel.website).
 
 Developed with <a href="https://vuejs.org/"><img src="https://vuejs.org/images/logo.png" width="12" height="12"></a> [Vue](https://vuejs.org/).
 
