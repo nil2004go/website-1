@@ -1,10 +1,8 @@
-# Personal website
+# Personal page - [mikkel.website](https://mikkel.website)
 
-Accessible at [mikkel.website](https://mikkel.website)
+Developed with <a href="https://vuejs.org/"><img src="https://vuejs.org/images/icons/favicon-16x16.png" width="12" height="12"></a> [Vue](https://vuejs.org/)
 
-Developed with <a href="https://vuejs.org/"><img src="https://vuejs.org/images/logo.png" width="12" height="12"></a> [Vue](https://vuejs.org/)
-
-Can be build by running `npm run build` in root folder
+Built with <a href="https://www.npmjs.com/"><img src="https://static.npmjs.com/da3ab40fb0861d15c83854c29f5f2962.png" width="12" height="12"></a> [npm](https://www.npmjs.com/) and <a href="https://cli.vuejs.org/"><img src="https://vuejs.org/images/icons/favicon-16x16.png" width="12" height="12"></a> [Vue CLI](https://cli.vuejs.org/)
 
 <br/>
 
