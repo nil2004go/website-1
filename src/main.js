@@ -18,6 +18,11 @@ const routes = [{
     path: "/",
     name: "home",
     component: Construction
+  },
+  {
+    path: "*",
+    name: "default",
+    redirect: "/"
   }
 ];
 
