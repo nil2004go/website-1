@@ -7,7 +7,8 @@
 
 <script>
 export default {
-  name: "Construction"
+  name: "Construction",
+  loopTitle: "Building"
 };
 </script>
 
