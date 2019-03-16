@@ -1,17 +1,12 @@
 <template>
   <div id="app">
-    <Construction/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import Construction from "./components/UnderConstruction.vue";
-
 export default {
-  name: "app",
-  components: {
-    Construction
-  }
+  name: "app"
 };
 </script>
 
