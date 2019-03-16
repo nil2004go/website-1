@@ -1,14 +1,38 @@
 import Vue from 'vue'
-import App from './App.vue'
+import VueRouter from 'vue-router'
 
-Vue.config.productionTip = false
+import App from './App.vue'
+import Construction from './components/UnderConstruction.vue'
+import CV from './components/CurriculumVitae.vue'
 
 import titleMixin from './components/mixins/titleMixin'
-Vue.mixin(titleMixin)
-
 import loopTitleMixin from './components/mixins/loopTitleMixin'
+
+// Define routes
+const routes = [{
+    path: "/resume",
+    name: "CV",
+    component: CV
+  },
+  {
+    path: "/",
+    name: "home",
+    component: Construction
+  }
+];
+
+// Make router
+const router = new VueRouter({
+  routes,
+  mode: "history" // disable '#'
+})
+
+Vue.use(VueRouter)
+
+Vue.mixin(titleMixin)
 Vue.mixin(loopTitleMixin)
 
 new Vue({
+  router,
   render: h => h(App),
 }).$mount('#app')
