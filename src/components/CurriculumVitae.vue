@@ -1,7 +1,9 @@
 <template>
   <div id="cv">
     <div class="errorMsg">
-      <h1 class="error">Please view on a desktop computer</h1>
+      <h1 class="error">Please view on a desktop computer
+        <br>🤷🏻‍♂️
+      </h1>
     </div>
 
     <div class="page" size="A4">
