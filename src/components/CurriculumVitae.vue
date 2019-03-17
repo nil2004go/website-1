@@ -5,9 +5,23 @@
         <br>🤷🏻‍♂️
       </h1>
     </div>
-
     <div class="page" size="A4">
-      <h1>Curriculum Vitae</h1>
+      <img src="../assets/profile.jpg" alt="Et billede af mig" id="profilepic">
+      <h1 id="name">MIKKEL O. LAURSEN</h1>
+      <h1 id="title">IKT-STUDERENDE</h1>
+
+      <div id="contact">
+        <img src="../assets/social/email.png" alt="E-mail">
+        <p>m@ikkel.dk</p>
+        <img src="../assets/social/phone-book.png" alt="Phone">
+        <p>+45 26 78 90 90</p>
+        <img src="../assets/social/linkedin.png" alt="LinkedIn">
+        <p>mikkellaursen</p>
+      </div>
+
+      <div id="experience">
+        <h1>ERFARING</h1>
+      </div>
     </div>
   </div>
 </template>
@@ -18,37 +32,15 @@ export default {
 };
 </script>
 
-<style scoped>
-h1 .error {
-  margin: 70px;
-  font-size: 3em;
+<!--
+<style module>
+body {
+  background: #fcf6f1 !important;
 }
+</style>
+-->
 
-h1 {
-  padding: 70px;
-  font-size: 3em;
-}
-
-/* Remove shadows and margin on print */
-@media print {
-  body,
-  page {
-    margin: 0;
-    box-shadow: 0;
-  }
-}
-
-@media screen and (min-width: 801px) {
-  .errorMsg {
-    display: none;
-  }
-}
-
-/* Disable mobile users */
-@media screen and (max-width: 800px) {
-  .page {
-    display: none;
-  }
-}
+<style lang="scss" scoped>
+@import "../styles/_cv.scss";
 </style>
 
