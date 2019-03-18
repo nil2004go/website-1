@@ -1,0 +1,21 @@
+@media screen and (min-width: 600px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100vh;
+    }
+}
+
+h1::after {
+    content: "...";
+    margin-left: 5px;
+    color: #ffe169;
+}
+
+#dozer {
+    width: 150px;
+    padding-bottom: 75px;
+    margin-right: 40px;
+}
