@@ -2,6 +2,11 @@
   <div class="container">
     <img src="../assets/dozer.png" id="dozer">
     <h1>This site is under construction</h1>
+    <div id="dots">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
   </div>
 </template>
 
@@ -12,28 +17,8 @@ export default {
 };
 </script>
 
-<style scoped>
-@media screen and (min-width: 600px) {
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    height: calc(100vh - 60px);
-  }
-}
-
-h1::after {
-  content: "...";
-  margin-left: 5px;
-  color: #ffe169;
-}
-
-#dozer {
-  width: 150px;
-  padding-bottom: 75px;
-  margin-right: 40px;
-}
+<style lang="scss" scoped>
+@import "../styles/_construction.scss";
 </style>
 
 
