@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="container">
     <img src="../assets/dozer.png" id="dozer">
     <h1>This site is under construction</h1>
     <div id="dots">
