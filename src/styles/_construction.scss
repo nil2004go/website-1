@@ -42,12 +42,13 @@
 @keyframes wave {
 
     0%,
-    10%,
+    65%,
+    75%,
     100% {
         transform: initial;
     }
 
-    5% {
+    70% {
         transform: translateY(-8px);
     }
 }
