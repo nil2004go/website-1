@@ -41,8 +41,6 @@
             <div class="dot"></div>
             <div class="dot"></div>
             <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
           </div>
           <div id="expcontent">
             <div class="entry">
@@ -53,38 +51,100 @@
             <div class="entry">
               <h1>2013 –</h1>
               <p class="jobtitle">Konsulent, selvstændig</p>
-              <p></p>
+              <p>Rådgivning, salg, programmering, support og reparation af alt inden for tech-verdenen til både virksomheder og private.</p>
             </div>
             <div class="entry">
-              <h1>2011 – 2013</h1>
-              <p class="jobtitle">Supporter, Elgiganten Tilst</p>
-              <p>Teknisk hjælp til købte produkter. Klargøring og opsætning af computere, smartphones og TV. Derudover håndtering af reklamationssager.</p>
-            </div>
-            <div class="entry">
-              <h1>2008 – 2010</h1>
-              <p class="jobtitle">Supporter, Elgiganten Tilst</p>
-              <p>Teknisk hjælp til købte produkter. Klargøring og opsætning af computere, smartphones og TV. Derudover håndtering af reklamationssager.</p>
-            </div>
-            <div class="entry">
-              <h1>– 2008</h1>
+              <h1>2008 – 2013</h1>
+              <p class="jobtitle"></p>
               <div>Diverse ungdomsarbejde - herunder opvasker, flaskedreng og avisbud</div>
             </div>
           </div>
         </div>
 
-        <!-- <div id="projects">
-        <h1>PROJEKTER</h1>
-        <p>github</p>
-        <p>home assistant / iot</p>
-        <p>discord bot</p>
-        <p>robort</p>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, itaque.
-          Quia officia illum distinctio eius quisquam eaque voluptate. Vitae, qui?
-          Fuga in optio nam, aliquid soluta ipsa! Hic, voluptatem inventore!
-          Eligendi quod similique nisi quo vero atque nobis sunt at.
-        </p>
-        </div>-->
+        <div id="skills">
+          <h1>FÆRDIGHEDER</h1>
+          <div class="content">
+            <div class="entry"></div>
+          </div>
+        </div>
+
+        <div id="projects">
+          <h1>PROJEKTER</h1>
+          <p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/mikkel-ol/bottenanna"
+            >
+              <img src="https://github.com/mikkel-ol/bottenanna/raw/master/logo.png" alt>
+              <b>Botten Anna</b>
+            </a>
+            – en bot til chat-platformen Discord, der kan spille musik fra
+            <img
+              src="https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png"
+              alt
+            >YouTube. Udviklet med JavaScript og kørt på
+            <img
+              src="https://nodejs.org/static/favicon.png"
+              alt
+            >
+            Node.js.
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/mikkel-ol/beepbot"
+            >
+              <img
+                src="https://raw.githubusercontent.com/mikkel-ol/beepbot/master/etc/logo.png"
+                alt
+              >
+              <b>Beep Bot</b>
+            </a>
+            som blandt andet soundboard til social Discord server med venner og bekendte. Hertil udvikling af website til styring. Ligeledes udviklet med JavaScript og Node.js.
+          </p>
+          <p>
+            <b>Home Automation</b> via
+            <a href="https://www.home-assistant.io/">
+              <img src="https://www.home-assistant.io/images/favicon.ico" alt>
+              <b>Home Assistant</b>
+            </a> med blandt andet automatiske gardiner, smart belysning og stemmestyret kaffemaskine. Derigennem erfaring med
+            <b>IoT</b>,
+            <b>MQTT</b> og
+            <b>YAML</b>.
+          </p>
+          <!-- <p>
+            <b>Selvbygget 3D printer</b> med mange modificeringer - heriblandt
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://octoprint.org/"
+            >
+              <img src="https://octoprint.org/assets/img/tentacle-32x32.png" alt>
+              <b>OctoPrint</b> som webinterface.
+            </a>
+          </p>-->
+          <p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://marketplace.visualstudio.com/items?itemName=mikkel-ol.er-syntax-highlighting"
+            >
+              <img src="https://code.visualstudio.com/favicon.ico" alt>
+              <b>Visual Studio Code extension</b>
+            </a> med syntax highlighting til Entity-Relationship diagrammer (.er filer).
+          </p>
+          <p id="footer">
+            Se mange af projekterne og andre skoleprojekter på
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/mikkel-ol/"
+            >
+              <img src="../assets/social/039-github.png" alt>
+              <b>github</b>.
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   </div>
