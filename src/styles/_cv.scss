@@ -37,6 +37,15 @@ h1 {
         padding: 0;
         margin: 0;
     }
+
+    a {
+        transition: .3s linear;
+    }
+
+    a:hover {
+        color: $linkHoverColor !important;
+        transition: .3s linear;
+    }
 }
 
 #profilepic {
@@ -101,12 +110,6 @@ h1 {
     a {
         text-decoration: none;
         color: inherit;
-        transition: .3s linear;
-
-        &:hover {
-            color: $linkHoverColor;
-            transition: .3s linear;
-        }
     }
 }
 
@@ -119,13 +122,13 @@ h1 {
 
 #experience {
     grid-column-end: 15;
-    grid-row: 13 / 34;
+    grid-row: 13 / 26;
 
     display: grid;
     height: 100%;
 
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(21, 1fr);
+    grid-template-rows: repeat(13, 1fr);
 
     h1 {
         grid-column: 1 / 13;
@@ -141,7 +144,7 @@ h1 {
         flex-flow: column;
 
         grid-column: 1 / 2;
-        grid-row: 2 / 25;
+        grid-row: 2 / 17;
 
         width: 100%;
         height: 100%;
@@ -173,11 +176,11 @@ h1 {
 
     #expcontent {
         grid-column: 2 / 13;
-        grid-row: 3 / 25;
+        grid-row: 3 / 17;
 
         display: grid;
         grid-template-columns: repeat(11, 1fr);
-        grid-template-rows: repeat(19, 1fr);
+        grid-template-rows: repeat(11, 1fr);
 
         .entry {
             grid-row: span 4;
@@ -212,15 +215,61 @@ h1 {
     }
 }
 
+#skills {
+    grid-column: 17 / 23;
+    grid-row: 13 / 26;
+
+    display: grid;
+    height: 100%;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+
+    h1 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 7;
+
+        font-size: 24px;
+        border-bottom: 1px solid $headerUnderlineColor;
+    }
+
+    .content {
+        grid-row: 3 / 14;
+        grid-column: 1 / 13;
+
+        .entry {}
+    }
+}
+
 #projects {
-    grid-column-end: 15;
-    grid-row-start: 25;
-    grid-row-end: 35;
+    grid-column-end: 23;
+    grid-row: 26 / 34;
 
     h1 {
         font-size: 24px;
         border-bottom: 1px solid $headerUnderlineColor;
-        margin-bottom: 12px;
+        margin-bottom: 24px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 5px;
+
+    }
+
+    img {
+        width: 14px;
+        margin: 0 3px;
+        vertical-align: -2px;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #footer {
+        margin-top: 16px;
     }
 }
 
@@ -265,7 +314,7 @@ h1 {
 
 /* Disable mobile users */
 @media screen and (max-width: 800px) {
-    #cv {
+    .errorMsg {
         display: none;
     }
 }
