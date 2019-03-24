@@ -64,7 +64,26 @@
         <div id="skills">
           <h1>FÆRDIGHEDER</h1>
           <div class="content">
-            <div class="entry"></div>
+            <div class="entry">
+              <div class="headline">
+                <p>HTML/CSS/JAVASCRIPT</p>
+              </div>
+              <div class="bar"></div>
+            </div>
+
+            <div class="entry">
+              <div class="headline">
+                <p>HTML/CSS/JAVASCRIPT</p>
+              </div>
+              <div class="bar"></div>
+            </div>
+
+            <div class="entry">
+              <div class="headline">
+                <p>HTML/CSS/JAVASCRIPT</p>
+              </div>
+              <div class="bar"></div>
+            </div>
           </div>
         </div>
 
@@ -141,7 +160,7 @@
               href="https://github.com/mikkel-ol/"
             >
               <img src="../assets/social/039-github.png" alt>
-              <b>github</b>.
+              <b>github.com/mikkel-ol</b>
             </a>
           </p>
         </div>
