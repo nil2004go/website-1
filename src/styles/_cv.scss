@@ -234,10 +234,52 @@ h1 {
     }
 
     .content {
+        display: grid;
+        height: 100%;
+
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(11, 1fr);
+
         grid-row: 3 / 14;
         grid-column: 1 / 13;
 
-        .entry {}
+        .entry {
+            vertical-align: middle;
+            grid-column: span 6;
+            grid-row: span 3;
+
+            display: grid;
+            height: 100%;
+
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+
+            .headline {
+                grid-column: span 6;
+                grid-row: span 1;
+
+                font-size: 14px;
+
+                p {
+                    position: relative;
+                    top: 10px;
+                }
+            }
+
+            .bar {
+                grid-column: span 6;
+                grid-row: span 1;
+
+                width: 100%;
+                height: 100%;
+
+                background: $headerUnderlineColor;
+
+                box-sizing: border-box;
+
+                border: solid 1px black;
+            }
+        }
     }
 }
 
@@ -314,7 +356,7 @@ h1 {
 
 /* Disable mobile users */
 @media screen and (max-width: 800px) {
-    .errorMsg {
+    #cv {
         display: none;
     }
 }
