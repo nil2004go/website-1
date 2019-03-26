@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import vueHeadful from 'vue-headful'
 
 import App from './App.vue'
 import Construction from './components/UnderConstruction.vue'
@@ -36,6 +37,8 @@ Vue.use(VueRouter)
 
 Vue.mixin(titleMixin)
 Vue.mixin(loopTitleMixin)
+
+Vue.component('vue-headful', vueHeadful);
 
 new Vue({
   router,
