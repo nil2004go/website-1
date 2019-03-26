@@ -1,5 +1,7 @@
 <template>
   <div id="cvRoot">
+    <vue-headful title="Curriculum Vitae"/>
+
     <div class="errorMsg">
       <h1 class="error">
         Please view on a desktop computer
@@ -29,10 +31,11 @@
         </div>
 
         <div id="about">
-          <p>Sans for godt design, både grafisk og funktionelt.</p>
-          <p>Motiveret af kløgtige/snedige/smarte/intelligente løsninger.</p>
-          <p>Drevet af ny teknologi og state-of-the-arts.</p>
-          <p></p>
+          <p>Sans for godt design – grafisk som funktionelt.</p>
+          <p>Motiveret af kløgtige og smarte løsninger.</p>
+          <p>Drevet af nysgerrighed og forståelse.</p>
+          <p>Interesseret i ny teknologi og state-of-the-art.</p>
+          <p>Bidrager med ansvarlighed og snilde.</p>
         </div>
 
         <div id="experience">
@@ -62,27 +65,26 @@
         </div>
 
         <div id="skills">
-          <h1>FÆRDIGHEDER</h1>
+          <h1>KOMPETENCER</h1>
           <div class="content">
             <div class="entry">
-              <div class="headline">
-                <p>HTML/CSS/JAVASCRIPT</p>
-              </div>
-              <div class="bar"></div>
+              <h1>OPERATIVSYSTEMER</h1>
+              <p>macOS, Linux, Windows</p>
             </div>
 
             <div class="entry">
-              <div class="headline">
-                <p>HTML/CSS/JAVASCRIPT</p>
-              </div>
-              <div class="bar"></div>
+              <h1>SPROG</h1>
+              <p>C, C++, C#, XAML, Java, HTML, CSS, JS, SQL, VHDL</p>
             </div>
 
             <div class="entry">
-              <div class="headline">
-                <p>HTML/CSS/JAVASCRIPT</p>
-              </div>
-              <div class="bar"></div>
+              <h1>VÆRKTØJER</h1>
+              <p>Scrum, Git, V-model, GNU Make</p>
+            </div>
+
+            <div class="entry">
+              <h1>DOKUMENTATION</h1>
+              <p>LaTeX, UML, SysML</p>
             </div>
           </div>
         </div>
@@ -95,41 +97,27 @@
               rel="noopener noreferrer"
               href="https://github.com/mikkel-ol/bottenanna"
             >
-              <img src="https://github.com/mikkel-ol/bottenanna/raw/master/logo.png" alt>
+              <!-- <img src="https://github.com/mikkel-ol/bottenanna/raw/master/logo.png" alt> -->
               <b>Botten Anna</b>
+              og
             </a>
-            – en bot til chat-platformen Discord, der kan spille musik fra
-            <img
-              src="https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png"
-              alt
-            >YouTube. Udviklet med JavaScript og kørt på
-            <img
-              src="https://nodejs.org/static/favicon.png"
-              alt
-            >
-            Node.js.
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/mikkel-ol/beepbot"
             >
-              <img
+              <!-- <img
                 src="https://raw.githubusercontent.com/mikkel-ol/beepbot/master/etc/logo.png"
                 alt
-              >
+              >-->
               <b>Beep Bot</b>
             </a>
-            som blandt andet soundboard til social Discord server med venner og bekendte. Hertil udvikling af website til styring. Ligeledes udviklet med JavaScript og Node.js.
+            – to bots til chat-platformen Discord, der blandt andet kan spille musik fra YouTube, fungere som soundboard og styres fra et selvdesignet website. Skrevet i JavaScript og kørt på Node.js.
           </p>
           <p>
             <b>Home Automation</b> via
-            <a href="https://www.home-assistant.io/">
-              <img src="https://www.home-assistant.io/images/favicon.ico" alt>
-              <b>Home Assistant</b>
-            </a> med blandt andet automatiske gardiner, smart belysning og stemmestyret kaffemaskine. Derigennem erfaring med
-            <b>IoT</b>,
-            <b>MQTT</b> og
-            <b>YAML</b>.
+            <!-- <img src="https://www.home-assistant.io/images/favicon.ico" alt> -->
+            Home Assistant med blandt andet automatiske gardiner, smart belysning og stemmestyret kaffemaskine. Derigennem erfaring med MQTT og YAML.
           </p>
           <!-- <p>
             <b>Selvbygget 3D printer</b> med mange modificeringer - heriblandt
@@ -148,12 +136,12 @@
               rel="noopener noreferrer"
               href="https://marketplace.visualstudio.com/items?itemName=mikkel-ol.er-syntax-highlighting"
             >
-              <img src="https://code.visualstudio.com/favicon.ico" alt>
+              <!-- <img src="https://code.visualstudio.com/favicon.ico" alt> -->
               <b>Visual Studio Code extension</b>
             </a> med syntax highlighting til Entity-Relationship diagrammer (.er filer).
           </p>
           <p id="footer">
-            Se mange af projekterne og andre skoleprojekter på
+            Se mange af projekterne og flere andre på
             <a
               target="_blank"
               rel="noopener noreferrer"

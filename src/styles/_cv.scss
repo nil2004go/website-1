@@ -1,318 +1,307 @@
 // Variables
-$headerUnderlineColor: darkred;
-$linkHoverColor: darkred;
+$background: #fcf6f1;
+$accent: darkred;
 $align: left;
 
 #cv {
-    padding: 60px 0;
-    background: #fcf6f1;
+	padding: 60px 0;
+	background: $background;
 }
 
 h1 {
-    padding: 70px;
-    font-size: 48px;
+	padding: 70px;
+	font-size: 48px;
 
-    .error {
-        margin: 70px;
-        font-size: 48px;
-    }
+	.error {
+		margin: 70px;
+		font-size: 48px;
+	}
 }
 
 .page {
-    * {
-        grid-column-start: 3;
-    }
+	* {
+		grid-column-start: 3;
+	}
 
-    background-color: white;
+	background-color: white;
 
-    display: grid;
+	display: grid;
 
-    grid-template-columns: repeat(24, 1fr);
-    grid-template-rows: repeat(34, 1fr);
+	grid-template-columns: repeat(24, 1fr);
+	grid-template-rows: repeat(34, 1fr);
 
-    text-align: $align;
+	text-align: $align;
 
-    h1,
-    p {
-        padding: 0;
-        margin: 0;
-    }
+	h1,
+	p {
+		padding: 0;
+		margin: 0;
+	}
 
-    a {
-        transition: .3s linear;
-    }
+	a {
+		transition: .3s linear;
+	}
 
-    a:hover {
-        color: $linkHoverColor !important;
-        transition: .3s linear;
-    }
+	a:hover {
+		color: $accent !important;
+		transition: .3s linear;
+	}
 }
 
 #profilepic {
-    grid-column: 17 / 23;
-    grid-row: 4 / 10;
+	grid-column: 17 / 23;
+	grid-row: 4 / 10;
 
-    align-self: right;
+	align-self: right;
 
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
 
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
 }
 
 #name {
-    grid-column-end: 16;
-    grid-row: 4 / 5;
+	grid-column-end: 16;
+	grid-row: 4 / 5;
 
-    line-height: 0.8em;
+	line-height: 0.8em;
 
-    font-size: 40px;
-    font-weight: 900;
+	font-size: 40px;
+	font-weight: 900;
 }
 
 #title {
-    grid-column-end: 14;
-    grid-row: 5 / 7;
+	grid-column-end: 14;
+	grid-row: 5 / 7;
 
-    align-self: center;
+	align-self: center;
 
-    font-size: 24px;
-    font-weight: 900;
-    letter-spacing: 1px;
+	font-size: 24px;
+	font-weight: 900;
+	letter-spacing: 1.3px;
 
-    color: darkred;
+	color: $accent;
 }
 
 #contact {
-    grid-column-end: 17;
-    grid-row: 7 / 8;
+	grid-column-end: 17;
+	grid-row: 7 / 8;
 
-    img {
-        margin-top: -1px;
-        margin-right: 7px;
+	img {
+		margin-top: -2px;
+		margin-right: 7px;
 
-        width: 17px;
-        height: 17px;
-        display: inline-block;
+		width: 17px;
+		height: 17px;
+		display: inline-block;
 
-        vertical-align: middle;
-    }
+		vertical-align: middle;
+	}
 
-    p,
-    a {
-        margin-right: 20px;
-        padding-top: 7px;
+	p,
+	a {
+		margin-right: 20px;
+		padding-top: 7px;
 
-        display: inline-block;
-    }
+		display: inline-block;
+	}
 
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
 }
 
 #about {
-    grid-column-end: 15;
-    grid-row: 8 / 11;
+	grid-column-end: 15;
+	grid-row: 8 / 11;
 
-    padding-top: 14px;
+	padding-top: 14px;
 }
 
 #experience {
-    grid-column-end: 15;
-    grid-row: 13 / 26;
+	grid-column-end: 15;
+	grid-row: 13 / 26;
 
-    display: grid;
-    height: 100%;
+	display: grid;
+	height: 100%;
 
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(13, 1fr);
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(13, 1fr);
 
-    h1 {
-        grid-column: 1 / 13;
-        grid-row: 1 / 2;
+	h1 {
+		grid-column: 1 / 13;
+		grid-row: 1 / 2;
 
-        font-size: 24px;
-        border-bottom: 1px solid $headerUnderlineColor;
-    }
+		font-size: 24px;
+		border-bottom: 1px solid $accent;
+	}
 
-    #timeline {
-        position: relative;
-        display: flex;
-        flex-flow: column;
+	#timeline {
+		position: relative;
+		display: flex;
+		flex-flow: column;
 
-        grid-column: 1 / 2;
-        grid-row: 2 / 17;
+		grid-column: 1 / 2;
+		grid-row: 2 / 17;
 
-        width: 100%;
-        height: 100%;
+		width: 100%;
+		height: 100%;
 
-        &:after {
-            content: "";
-            position: absolute;
-            z-index: 1;
-            top: 35px;
-            bottom: 35px;
-            left: 5px;
-            border-left: 1px solid lightgray;
-        }
+		&:after {
+			content: "";
+			position: absolute;
+			z-index: 1;
+			top: 35px;
+			bottom: 35px;
+			left: 5px;
+			border-left: 1px solid lightgray;
+		}
 
-        .dot {
-            width: 5px;
-            height: 5px;
+		.dot {
+			width: 5px;
+			height: 5px;
 
-            margin-left: 3px;
-            margin-top: 64px;
-            margin-bottom: 62.5px;
+			margin-left: 3px;
+			margin-top: 63.5px;
+			margin-bottom: 62px;
 
-            z-index: 2;
+			z-index: 2;
 
-            border-radius: 50%;
-            background: darkred;
-        }
-    }
+			border-radius: 50%;
+			background: $accent;
+		}
+	}
 
-    #expcontent {
-        grid-column: 2 / 13;
-        grid-row: 3 / 17;
+	#expcontent {
+		grid-column: 2 / 13;
+		grid-row: 3 / 17;
 
-        display: grid;
-        grid-template-columns: repeat(11, 1fr);
-        grid-template-rows: repeat(11, 1fr);
+		display: grid;
+		grid-template-columns: repeat(11, 1fr);
+		grid-template-rows: repeat(11, 1fr);
 
-        .entry {
-            grid-row: span 4;
-            grid-column: span 11;
+		.entry {
+			grid-row: span 4;
+			grid-column: span 11;
 
-            text-align: justify;
+			text-align: justify;
 
-            &>p:last-child {
-                font-size: 14px;
-            }
+			&>p:last-child {
+				font-size: 14px;
+			}
 
-            h1 {
-                font-size: 14px;
-                font-weight: 400;
-                border-bottom: none;
-                display: inline;
-            }
+			h1 {
+				font-size: 14px;
+				font-weight: 400;
+				border-bottom: none;
+				display: inline;
+			}
 
-            .jobtitle {
-                font-size: 18px;
-                font-weight: 800;
-                padding-top: 2px;
-                margin-bottom: 5px;
-            }
-        }
+			.jobtitle {
+				font-size: 18px;
+				font-weight: 800;
+				padding-top: 2px;
+				margin-bottom: 5px;
+			}
+		}
 
-        &>:last-child h1,
-        div {
-            text-align: left;
-            font-size: 14px;
-        }
-    }
+		&> :last-child h1,
+		div {
+			text-align: left;
+			font-size: 14px;
+		}
+	}
 }
 
 #skills {
-    grid-column: 17 / 23;
-    grid-row: 13 / 26;
+	grid-column: 17 / 23;
+	grid-row: 13 / 26;
 
-    display: grid;
-    height: 100%;
+	display: grid;
+	height: 100%;
 
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(13, 1fr);
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(13, 1fr);
 
-    h1 {
-        grid-row: 1 / 2;
-        grid-column: 1 / 7;
+	h1 {
+		grid-row: 1 / 2;
+		grid-column: 1 / 7;
 
-        font-size: 24px;
-        border-bottom: 1px solid $headerUnderlineColor;
-    }
+		font-size: 24px;
+		border-bottom: 1px solid $accent;
+	}
 
-    .content {
-        display: grid;
-        height: 100%;
+	.content {
+		grid-row: 3 / 14;
+		grid-column: 1 / 13;
 
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(11, 1fr);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 
-        grid-row: 3 / 14;
-        grid-column: 1 / 13;
+		height: 100%;
 
-        .entry {
-            vertical-align: middle;
-            grid-column: span 6;
-            grid-row: span 3;
+		.entry {
+			margin: 5px 0 15px;
 
-            display: grid;
-            height: 100%;
+			&:last-child {
+				margin-bottom: 25px;
+			}
 
-            grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: repeat(3, 1fr);
+			h1 {
+				color: inherit;
+				font-size: 14px;
+				border: none;
+				margin-bottom: 4px;
+			}
 
-            .headline {
-                grid-column: span 6;
-                grid-row: span 1;
+			p {
+				font-size: 14px;
+			}
 
-                font-size: 14px;
+			.bar {
+				width: 100%;
+				height: 40%;
 
-                p {
-                    position: relative;
-                    top: 10px;
-                }
-            }
+				background: darkgray;
 
-            .bar {
-                grid-column: span 6;
-                grid-row: span 1;
-
-                width: 100%;
-                height: 100%;
-
-                background: $headerUnderlineColor;
-
-                box-sizing: border-box;
-
-                border: solid 1px black;
-            }
-        }
-    }
+				box-sizing: border-box;
+			}
+		}
+	}
 }
 
 #projects {
-    grid-column-end: 23;
-    grid-row: 26 / 34;
+	grid-column-end: 23;
+	grid-row: 26 / 34;
 
-    h1 {
-        font-size: 24px;
-        border-bottom: 1px solid $headerUnderlineColor;
-        margin-bottom: 24px;
-    }
+	h1 {
+		font-size: 24px;
+		border-bottom: 1px solid $accent;
+		margin-bottom: 24px;
+	}
 
-    p {
-        font-size: 14px;
-        margin-bottom: 5px;
+	p {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
 
-    }
+	img {
+		width: 14px;
+		margin: 0 3px;
+		vertical-align: -2px;
+	}
 
-    img {
-        width: 14px;
-        margin: 0 3px;
-        vertical-align: -2px;
-    }
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
 
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    #footer {
-        margin-top: 16px;
-    }
+	#footer {
+		margin-top: 24px;
+	}
 }
 
 /*****************
@@ -323,40 +312,39 @@ h1 {
 
 /* Remove shadows and margin on print */
 @media print {
-    .dot {
-        -webkit-print-color-adjust: exact; // Get colors of timeline correct
-    }
+	.dot {
+		-webkit-print-color-adjust: exact; // Get colors of timeline correct
+	}
 
-    .errorMsg {
-        display: none;
-    }
+	.errorMsg {
+		display: none;
+	}
 
-    #cv {
-        padding: 0;
-    }
+	#cv {
+		padding: 0;
+	}
 
-    body,
-    page {
-        margin: 0;
-        box-shadow: 0;
-    }
+	body,
+	page {
+		margin: 0;
+		box-shadow: 0;
+	}
 
-    @page {
-        size: auto;
-        margin: 0mm;
-    }
+	@page {
+		size: auto;
+		margin: 0mm;
+	}
 }
 
-
 @media screen and (min-width: 801px) {
-    .errorMsg {
-        display: none;
-    }
+	.errorMsg {
+		display: none;
+	}
 }
 
 /* Disable mobile users */
 @media screen and (max-width: 800px) {
-    #cv {
-        display: none;
-    }
+	#cv {
+		display: none;
+	}
 }
