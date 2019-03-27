@@ -1,6 +1,6 @@
 <template>
   <div id="cvRoot">
-    <vue-headful title="CV Mikkel Laursen"/>
+    <vue-headful title="CV Mikkel O. Laursen"/>
 
     <div class="errorMsg">
       <h1 class="error">
