@@ -92,7 +92,19 @@
 
             <div class="entry">
               <h1>DOKUMENTATION</h1>
-              <p>LaTeX, UML, SysML, Doxygen</p>
+              <p>
+                <span
+                  class="texhtml"
+                  style="font-family: 'CMU Serif', cmr10, LMRoman10-Regular, 'Times New Roman', 'Nimbus Roman No9 L', Times, serif; letter-spacing: -0.5px;"
+                >
+                  L
+                  <span
+                    style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;"
+                  >a</span>T
+                  <span
+                    style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;"
+                  >e</span>X</span>, UML, SysML, Doxygen
+              </p>
             </div>
 
             <div class="entry">
