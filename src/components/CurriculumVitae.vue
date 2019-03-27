@@ -164,15 +164,16 @@
   </div>
 </template>
 
-<script>
-var favicon = document.createElement("link");
-favicon.rel = "icon";
-favicon.type = "image/x-icon";
-favicon.href = "favicons/cv/favicon.ico";
-document.getElementsByTagName("head")[0].prepend(favicon);
-
+<script scoped>
 export default {
-  name: "CV"
+  name: "CV",
+  mounted() {
+    var favicon = document.createElement("link");
+    favicon.rel = "icon";
+    favicon.type = "image/x-icon";
+    favicon.href = "favicons/cv/favicon.ico";
+    document.getElementsByTagName("head")[0].prepend(favicon);
+  }
 };
 </script>
 
