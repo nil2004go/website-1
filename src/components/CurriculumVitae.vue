@@ -1,6 +1,6 @@
 <template>
   <div id="cvRoot">
-    <vue-headful title="Curriculum Vitae"/>
+    <vue-headful title="CV Mikkel Laursen"/>
 
     <div class="errorMsg">
       <h1 class="error">
@@ -13,7 +13,13 @@
       <div class="page" size="A4">
         <img src="../assets/profile.jpg" alt="Et billede af mig" id="profilepic">
         <h1 id="name">MIKKEL O. LAURSEN</h1>
-        <h1 id="title">IKT-STUDERENDE</h1>
+        <h1 id="title">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://bachelor.au.dk/ikt/"
+          >IKT-STUDERENDE</a>
+        </h1>
 
         <div id="contact">
           <img src="../assets/social/email.png" alt="E-mail">
@@ -59,7 +65,7 @@
             <div class="entry">
               <h1>2008 – 2013</h1>
               <p class="jobtitle"></p>
-              <div>Diverse ungdomsarbejde - herunder opvasker, flaskedreng og avisbud</div>
+              <div>Diverse ungdomsarbejde – herunder opvasker, flaskedreng og avisbud</div>
             </div>
           </div>
         </div>
@@ -68,23 +74,23 @@
           <h1>KOMPETENCER</h1>
           <div class="content">
             <div class="entry">
-              <h1>OPERATIVSYSTEMER</h1>
-              <p>macOS, Linux, Windows</p>
-            </div>
-
-            <div class="entry">
               <h1>SPROG</h1>
-              <p>C, C++, C#, XAML, Java, HTML, CSS, JS, SQL, VHDL</p>
+              <p>C, C++, C#, XAML, Java, Python, HTML, CSS, JS, SQL, VHDL, Assembly</p>
             </div>
 
             <div class="entry">
               <h1>VÆRKTØJER</h1>
-              <p>Scrum, Git, V-model, GNU Make</p>
+              <p>Scrum, Git, V-model, GNU Make, PlantUML</p>
             </div>
 
             <div class="entry">
               <h1>DOKUMENTATION</h1>
-              <p>LaTeX, UML, SysML</p>
+              <p>LaTeX, UML, SysML, Doxygen</p>
+            </div>
+
+            <div class="entry">
+              <h1>ANDET</h1>
+              <p>RESTful API, Node.js, Kommunikation, Kaffedrik ☕️</p>
             </div>
           </div>
         </div>
@@ -92,15 +98,6 @@
         <div id="projects">
           <h1>PROJEKTER</h1>
           <p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/mikkel-ol/bottenanna"
-            >
-              <!-- <img src="https://github.com/mikkel-ol/bottenanna/raw/master/logo.png" alt> -->
-              <b>Botten Anna</b>
-              og
-            </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -112,27 +109,30 @@
               >-->
               <b>Beep Bot</b>
             </a>
-            – to bots til chat-platformen Discord, der blandt andet kan spille musik fra YouTube, fungere som soundboard og styres fra et selvdesignet website. Skrevet i JavaScript og kørt på Node.js.
+            og
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/mikkel-ol/bottenanna"
+            >
+              <!-- <img src="https://github.com/mikkel-ol/bottenanna/raw/master/logo.png" alt> -->
+              <b>Botten Anna</b>
+            </a>
+            – to bots til chat-platformen Discord, der blandt andet kan spille musik fra YouTube, fungere som soundboard og styres fra et selvdesignet website.
           </p>
           <p>
             <b>Home Automation</b> via
             <!-- <img src="https://www.home-assistant.io/images/favicon.ico" alt> -->
-            Home Assistant med blandt andet automatiske gardiner, smart belysning og stemmestyret kaffemaskine. Derigennem erfaring med MQTT og YAML.
+            Home Assistant med blandt andet automatiske gardiner, smart belysning og stemmestyret kaffemaskine.
           </p>
-          <!-- <p>
-            <b>Selvbygget 3D printer</b> med mange modificeringer - heriblandt
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://octoprint.org/"
-            >
-              <img src="https://octoprint.org/assets/img/tentacle-32x32.png" alt>
-              <b>OctoPrint</b> som webinterface.
-            </a>
-          </p>-->
+          <p>
+            <b>Selvbygget 3D printer</b> med mange modificeringer – heriblandt
+            <!-- <img src="https://octoprint.org/assets/img/tentacle-32x32.png" alt> -->
+            OctoPrint som webinterface.
+          </p>
           <p>
             <a
-              target="_blank"
+              target="_new"
               rel="noopener noreferrer"
               href="https://marketplace.visualstudio.com/items?itemName=mikkel-ol.er-syntax-highlighting"
             >
