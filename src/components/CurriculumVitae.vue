@@ -11,7 +11,14 @@
 
     <div id="cv">
       <div class="page" size="A4">
-        <img src="../assets/profile.jpg" alt="Et billede af mig" id="profilepic">
+        <div id="website">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://mikkel.website/resume"
+          >mikkel.website/resume</a>
+        </div>
+        <img src="../assets/profile.jpg" alt="Profilbillede" id="profilepic">
         <h1 id="name">MIKKEL O. LAURSEN</h1>
         <h1 id="title">
           <a
