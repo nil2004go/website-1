@@ -6,6 +6,10 @@ $align: left;
 #cv {
 	padding: 60px 0;
 	background: $background;
+
+	font-smoothing: antialiased !important;
+	-webkit-font-smoothing: antialiased !important;
+	text-rendering: optimizeLegibility !important;
 }
 
 h1 {
