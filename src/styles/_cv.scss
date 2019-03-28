@@ -82,9 +82,9 @@ h1 {
 	grid-column-end: 16;
 	grid-row: 4 / 5;
 
-	line-height: 0.8em;
+	line-height: 32px;
 
-	font-size: 40px;
+	font-size: 37px;
 	font-weight: 900;
 }
 
@@ -99,6 +99,10 @@ h1 {
 	letter-spacing: 1.3px;
 
 	color: $accent;
+
+	a {
+		color: $accent;
+	}
 }
 
 #contact {
