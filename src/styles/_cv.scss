@@ -7,9 +7,9 @@ $align: left;
 	padding: 60px 0;
 	background: $background;
 
-	font-smoothing: antialiased !important;
-	-webkit-font-smoothing: antialiased !important;
-	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
@@ -90,6 +90,10 @@ h1 {
 
 	font-size: 40px;
 	font-weight: 900;
+
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 #title {
@@ -103,6 +107,10 @@ h1 {
 	letter-spacing: 1.3px;
 
 	color: $accent;
+
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
 
 	a {
 		color: $accent;
