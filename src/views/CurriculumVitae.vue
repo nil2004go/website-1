@@ -109,7 +109,7 @@
 
             <div class="entry">
               <h1>ANDET</h1>
-              <p>RESTful API, Node.js, Kommunikation, Kaffedrik ☕️</p>
+              <p>RESTful API, Node.js, Unix, Kommunikation, Kaffebryg ☕️</p>
             </div>
           </div>
         </div>
