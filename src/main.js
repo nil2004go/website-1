@@ -3,8 +3,8 @@ import VueRouter from 'vue-router'
 import vueHeadful from 'vue-headful'
 
 import App from './App.vue'
-import Construction from './components/UnderConstruction.vue'
-import CV from './components/CurriculumVitae.vue'
+import Construction from './views/UnderConstruction.vue'
+import CV from './views/CurriculumVitae.vue'
 
 import titleMixin from './components/mixins/titleMixin'
 import loopTitleMixin from './components/mixins/loopTitleMixin'
