@@ -1,5 +1,3 @@
-import keys from '../keys.json'
-
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import vueHeadful from 'vue-headful'
