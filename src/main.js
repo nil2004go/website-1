@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import vueHeadful from 'vue-headful'
 import VueAnalytics from 'vue-analytics'
+import VueKonami from 'vue-konami'
 
 import App from './App.vue'
 import Construction from './views/UnderConstruction.vue'
@@ -39,6 +40,7 @@ Vue.use(VueAnalytics, {
   id: "UA-137498042-1",
   router
 })
+Vue.use(VueKonami)
 
 Vue.mixin(titleMixin)
 Vue.mixin(loopTitleMixin)
