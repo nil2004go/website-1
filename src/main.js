@@ -1,6 +1,9 @@
+import keys from '../keys.json'
+
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import vueHeadful from 'vue-headful'
+import VueAnalytics from 'vue-analytics'
 
 import App from './App.vue'
 import Construction from './views/UnderConstruction.vue'
@@ -34,6 +37,10 @@ const router = new VueRouter({
 })
 
 Vue.use(VueRouter)
+Vue.use(VueAnalytics, {
+  id: keys.gstat.id,
+  router
+})
 
 Vue.mixin(titleMixin)
 Vue.mixin(loopTitleMixin)
