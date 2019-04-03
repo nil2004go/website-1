@@ -42,7 +42,10 @@ export default {
         } else if (i < 150) {
           x += velB;
           velB -= accB;
-        } else {
+        } else if (i < 180) {
+          
+        }
+        else {
           x -= velF;
           velF += accF;
         }
