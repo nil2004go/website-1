@@ -43,9 +43,7 @@ export default {
           x += velB;
           velB -= accB;
         } else if (i < 180) {
-          
-        }
-        else {
+        } else {
           x -= velF;
           velF += accF;
         }
