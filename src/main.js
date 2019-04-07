@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import router from './router';
-import vueHeadful from 'vue-headful';
 import VueAnalytics from 'vue-analytics';
 import VueKonami from 'vue-konami';
 
@@ -19,8 +18,6 @@ Vue.use(VueKonami);
 Vue.mixin(titleMixin);
 Vue.mixin(loopTitleMixin);
 Vue.mixin(faviconMixin);
-
-Vue.component('vue-headful', vueHeadful);
 
 Vue.config.productionTip = false;
 
