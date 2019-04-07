@@ -1,7 +1,5 @@
 <template>
   <div id="cvRoot">
-    <vue-headful title="CV – Mikkel O. Laursen"/>
-
     <div class="errorMsg">
       <h1 class="error">
         Please view on a desktop computer
@@ -179,14 +177,8 @@
 <script scoped>
 export default {
   name: "CV",
-  favicon: "cv/favicon.ico"
-  // mounted() {
-  //   var favicon = document.createElement("link");
-  //   favicon.rel = "icon";
-  //   favicon.type = "image/x-icon";
-  //   favicon.href = "favicons/cv/favicon.ico";
-  //   document.getElementsByTagName("head")[0].prepend(favicon);
-  // }
+  favicon: "cv/favicon.ico",
+  title: "CV – Mikkel O. Laursen"
 };
 </script>
 
