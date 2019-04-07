@@ -92,6 +92,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/hovereffect.scss";
 @import "../styles/_credits.scss";
 </style>
 
