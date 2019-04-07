@@ -2,6 +2,7 @@
   <div id="container">
     <div v-konami="easterEgg"></div>
     <div id="assets">
+      <a href="/credits" id="credits">Credits</a>
       <img src="../assets/dozer.png" id="dozer">
       <h1 class="noselect">This site is under construction</h1>
       <div id="dots">
@@ -59,6 +60,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/hovereffect.scss";
 @import "../styles/_construction.scss";
 
 .noselect {
