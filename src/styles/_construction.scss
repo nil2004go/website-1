@@ -57,7 +57,9 @@
     z-index: 1;
 
     text-decoration: none;
-    color: darkred;
+	color: darkred;
+	
+	visibility: hidden; // Hide initially
 }
 
 @keyframes wave {
