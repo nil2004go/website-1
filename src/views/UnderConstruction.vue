@@ -15,9 +15,10 @@
 </template>
 
 <script>
-window.addEventListener("load", (event) => {
-    document.getElementById("credits").style.visibility = "visible";
-  });
+/* eslint-disable */
+window.addEventListener("load", event => {
+  document.getElementById("credits").style.visibility = "visible";
+});
 
 export default {
   name: "Construction",
