@@ -42,8 +42,8 @@
         </div>
 
         <div id="about">
-          <p>Sans for godt design – grafisk som funktionelt.</p>
-          <p>Motiveret af kløgtige og smarte løsninger.</p>
+          <p>Sans for godt design – funktionelt som visuelt.</p>
+          <p>Motiveret af effektive og smarte løsninger.</p>
           <p>Drevet af nysgerrighed og forståelse.</p>
           <p>Interesseret i ny teknologi og state-of-the-art.</p>
           <p>Bidrager med ansvarlighed og snilde.</p>
@@ -60,7 +60,7 @@
             <div class="entry">
               <h1>2015 –</h1>
               <p class="jobtitle">Supporter, Elgiganten Tilst</p>
-              <p>Teknisk hjælp til kunder. Klargøring og opsætning af computere, smartphones og TV. Sekundært håndtering af reklamationssager.</p>
+              <p>Teknisk hjælp til kunder. Klargøring og opsætning af computere, smartphones, tablets og TV. Sekundært håndtering af reklamationssager.</p>
             </div>
             <div class="entry">
               <h1>2013 –</h1>
@@ -107,7 +107,7 @@
 
             <div class="entry">
               <h1>ANDET</h1>
-              <p>RESTful API, Node.js, Unix, CI, Kommunikation, Kaffebryg ☕️</p>
+              <p>RESTful API, Node.js, Unix, .NET Core, CI, Kaffebryg ☕️</p>
             </div>
           </div>
         </div>
